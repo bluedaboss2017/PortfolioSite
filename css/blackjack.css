@@ -1,0 +1,120 @@
+html {
+    background: url(https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+body {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+
+.wrapper {
+    background-image: url(https://media.istockphoto.com/id/1864437299/vector/poker-green-table-background-vector-illustration-realistic-playing-field-for-game-blackjack.jpg?s=612x612&w=0&k=20&c=AdlRG5pyl3O0OfGrxI-qEClJsLhAbHOeuKjZqLNkoPk=);
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    border: 1px solid black;
+    background-color: #27f2f2;
+}
+
+.header ul { 
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.dealer {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+}
+
+.dealer img {
+    height: 28vh;
+    margin: auto;
+}
+
+.game {
+    height: 10vh;
+    display: flex;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+.hit, .stand {
+    margin: 10px auto;
+    width: 10vw;
+    font-size: 180%;
+    cursor: pointer;
+    display: none;
+    border-radius: 7px;
+    color: red;
+    background-color: darkgreen;
+}
+
+#playButton {
+    display: block;
+    margin: 10px auto;
+    width: 10vw;
+}
+
+#decks {
+    display: block;
+    margin: 20px auto;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.score {
+    margin: auto;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    text-align: center;
+    color: red;
+}
+
+.dealerScore {
+    margin: auto;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    text-align: center;
+    color: red;
+}
+
+.player {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+}
+
+.player img {
+    height: 28vh;
+    margin: 10px auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header ul li button{
+    width: 150px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 20px;
+    height: 25px;
+    box-shadow: black 1.5px 1.5px 1.5px;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+
+.header ul li button:hover {
+    background-color: #008080;
+}
