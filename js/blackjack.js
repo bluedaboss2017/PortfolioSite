@@ -155,11 +155,13 @@ restart = () => {
 
 didWin = () => {
     setTimeout(() => {
-        if (dealerScore <= 21 && dealerScore >= playerScore || playerScore > 21){
+        if (dealerScore == playerScore) {
+            alert("Tie, nobody wins");
+        } else if (dealerScore <= 21 && dealerScore > playerScore || playerScore > 21) {
             alert("Dealer Wins!");
         } else {
             alert("You Win!");
-        } 
+        }
         restart();
     }, 1000)
 }
